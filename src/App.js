@@ -1,10 +1,12 @@
 import React from 'react';
-import HorizontalLayout from './pages/HorizontalLayout';
+import Layout1200x600 from './pages/Layout1200x600';
+// import HorizontalLayout from './pages/HorizontalLayout';
 
 function App() {
   return (
   //  <VerticalLayout/>
-  <HorizontalLayout/>
+  // <HorizontalLayout/>
+  <Layout1200x600/>
   );
 }
 
