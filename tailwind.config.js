@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
+        barlow: ['Barlow Condensed', 'sans-serif'],
       },
     },
   },
