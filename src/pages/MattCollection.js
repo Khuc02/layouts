@@ -8,7 +8,7 @@ const MattCollection = () => {
       <p className="text-sm font-semibold text-black pl-28">G R A N I T O</p>
 
       <div className="flex mt-28">
-        <div className="w-1/3 h-full">
+        <div className="w-1/3">
           <div className="flex">
             <p className="text-2xl font-semibold text-black pl-16">Size:</p>
             <div className="border-t-2 border-dashed w-[30%] border-black mt-5 mx-2"></div>
@@ -22,7 +22,7 @@ const MattCollection = () => {
           </p>
           <div className="border-b-2 border-dashed w-[40%] border-black"></div>
         </div>{" "}
-        <div className="w-2/3 h-full relative">
+        <div className="w-2/3 relative">
           <div className="absolute right-0 top-0 w-[18%] border-t-2 border-dashed border-black"></div>
           <div className="flex mt-2 justify-between">
             <div className="flex">
@@ -38,7 +38,7 @@ const MattCollection = () => {
           </div>
 
           <div className="border-b-2 border-dashed w-[80%] ml-16 border-black"></div>
-          <div className="flex justify-between px-14 mt-4  pb-2">
+          <div className="flex justify-between px-14 mt-4 pb-2">
             <div className="w-1/2 pr-2">
               <img
                 src={Tile}
@@ -89,5 +89,3 @@ const MattCollection = () => {
 };
 
 export default MattCollection;
-
-    
